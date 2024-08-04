@@ -18,8 +18,7 @@ public class Item {
 	public double calculateDiscountedPrice()
 	{
 		double discount = 0.0;
-		if (name.contains("book") || name.contains("food") || name.contains("drink") || name.contains("chocolate"))
-		{
+		if (name.contains("book") || name.contains("food") || name.contains("drink") || name.contains("chocolate") || name.contains("wine")){
 			//5% discount on books, food and drinks 
 			discount = 0.05;  // (5/100) = 0.05			
 		}
